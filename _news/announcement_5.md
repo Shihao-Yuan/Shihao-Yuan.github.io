@@ -1,6 +1,6 @@
 ---
 layout: post
-title: SSA Community Grant Awarded - Workshop on Near-surface Characterization
+title: SSA Community Grant Awarded - Organizing Workshop on Near-surface Characterization
 date: 2025-08-14 16:11:00-0400
 inline: false
 related_posts: false
