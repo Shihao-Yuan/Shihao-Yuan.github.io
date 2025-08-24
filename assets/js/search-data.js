@@ -39,10 +39,17 @@ ninja.data = [{
           },
         },{id: "nav-cv",
           title: "cv",
-          description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
+          },
+        },{id: "nav-teaching",
+          title: "teaching",
+          description: "Teaching experience in seismology, geophysics, and distributed acoustic sensing. Courses taught at multiple institutions including workshops, graduate courses, and field instruction.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/teaching/";
           },
         },{id: "post-a-post-with-plotly-js",
         
@@ -432,8 +439,8 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_1/";
-            },},{id: "news-ssa-community-grant-awarded-workshop-on-near-surface-characterization",
-          title: 'SSA Community Grant Awarded - Workshop on Near-surface Characterization',
+            },},{id: "news-ssa-community-grant-awarded-organizing-workshop-on-near-surface-characterization",
+          title: 'SSA Community Grant Awarded - Organizing Workshop on Near-surface Characterization',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_5/";
@@ -482,14 +489,12 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
+            },},{id: "projects-full-waveform-inversion-fwi",
+          title: 'Full Waveform Inversion (FWI)',
+          description: "Localized FWI algorithm for high-frequency seismic inversion with reduced computational cost",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/fwi_project/";
             },},{
-        id: 'social-discord',
-        title: 'Discord',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://discord.com/users/ocean831", "_blank");
-        },
-      },{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
